@@ -1,0 +1,105 @@
+* {
+    padding: -2px;
+    margin: -2px;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-image: url("bg.jpg");
+    background-size: cover;
+    font-family: 'Nunito', sans-serif;
+}
+
+.title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 34px;
+    padding: 30px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box {
+    width: 400px;
+    background: #FAFAFA;
+    border-radius: 38px;
+    text-align: center;
+    position: relative;
+    padding: 30px 0;
+    box-shadow: 0px 0px 95px -30px rgba(0, 0, 0, 0.15);
+    overflow-y: auto; /* Allow vertical scrolling if needed */
+}
+
+.input {
+    background: #FFF;
+    box-shadow: 0px 0px 95px -30px rgba(0, 0, 0, 0.15);
+    border-radius: 28px;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+.input label {
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.input input {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #f94f4f;
+    width: 60%;
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Nunito', sans-serif;
+}
+
+button#calculate {
+    font-family: 'Nunito', sans-serif;
+    color: #FFF;
+    background: #f94f6b;
+    font-size: 16px;
+    border-radius: 12px;
+    padding: 12px 0;
+    width: 100%;
+    outline: none;
+    border: none;
+    transition: background .2s ease;
+}
+
+.result {
+    padding: 30px 20px;
+    color: #f94f4f; /* Red color for percentage */
+}
+
+.result p {
+    font-weight: 600;
+    font-size: 22px;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.result #result {
+    font-size: 36px;
+    font-weight: 900;
+    color: #f94f4f;
+    background-color: #eaeaea;
+    display: inline-block;
+    padding: 7px 20px;
+    border-radius: 55px;
+    margin-bottom: 15px;
+}
+
+#comment {
+    color: #f94f52;
+    font-weight: 800;
+    font-size: 16px;
+}
